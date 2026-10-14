@@ -1,0 +1,221 @@
+.howbutton {
+
+    padding : 10px 60px;
+    background-color:rgb(30, 144, 255, 0.5);
+    color: white;
+    border: 2px solid white;
+    border-radius: 10px;
+    font-family:monospace;
+    display: block;
+    margin: 40px auto;
+    width: 250px;
+    
+
+}
+.howbutton:hover{
+    padding: 15px 25px;
+    background-color:rgba(23, 137, 252, 0.623); 
+    border-color: rgb(124, 189, 255);
+    font-size: 15px;
+    font-family: monospace;
+    transition:ease-in-out;
+}
+
+.pic {
+    padding : 40px 60px;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+    width: 250px;
+    transform: rotate(-4deg);
+    
+}
+
+.pic:hover{
+    transform: perspective(500px) rotateX(8deg) rotateY(-12deg) scale(1.05);
+}
+
+
+h1 {
+
+    font-family:monospace;
+    font-size:xx-large;
+    color: #11204D;
+    font-weight:1000px;
+    font-size: 350%;
+    display: block;
+    margin: 40px auto;
+    width: 500px;
+    
+
+}
+
+body { 
+
+    background: linear-gradient(to bottom, #e0f2fe, #7dd3fc);
+
+}
+
+p {
+   font-family: 'Times New Roman', Times, serif;
+   color: beige;
+   font-size: 100000px;
+   display: block;
+    margin: 0 auto;
+    width: 300px;
+}
+h2 {
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: block;
+    margin: 40px auto;
+    width: 300px;
+}
+
+.but1 {
+
+    padding : 10px 20px;
+    background-color:rgba(5, 46, 87, 0.582);
+    border-radius: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: sticky;
+   
+}
+
+
+.fin {
+    font-family: monospace;
+    color: rgb(249, 251, 255);
+    position: bottom sticky;
+}
+
+.white {
+
+    background-color: white;
+    width: 650px;
+    max-width: 90%;
+    padding: 90px 80px;
+    border-radius: 60px;
+    text-align: center;
+    box-shadow: 0px 20px 50px rgba(17, 32, 77, 0.15);
+    margin: 0 auto;
+}
+
+.fin:hover{
+
+    color: lightblue;
+
+}
+
+.but1:hover{
+
+    padding : 15px 25px;
+    background-color:rgb(5, 46, 87);
+
+    
+}
+
+h2{
+    font-family: monospace;
+    font-style: oblique;
+    font-weight: bolder;
+    color: white;
+    padding: 10px 60px;
+    margin: 40px auto;
+    border-color: #11204D;
+    background-color: #11204da4;
+    border-radius: 20px;
+    
+    
+}
+
+p{
+    color: #11204D;
+    font-family: monospace;
+    font-size: 15px;
+
+}
+
+
+
+.sticker{
+
+    
+    
+    scale: 70%;
+    transition: transform 0.3s ease;
+}
+
+.sticker:hover{
+    transform: rotate(5deg);
+}
+
+h2:hover{
+    transform: rotate(6deg) scale(1.05);
+}
+
+.blender{
+
+    border-radius: 20px;
+    margin: 30px;
+    transition: transform 0.3s ease;
+
+}
+
+
+.nbut2{
+
+    position: relative;
+    bottom: 0%;
+    background-color: #11204d7a;
+    border-radius: 20px;
+    font-family: monospace;
+    left: 77%;
+    padding: 20px 15px;
+
+
+}
+
+.stickers{
+    position: absolute;
+    top: 150px;
+    transition: transform 0.3s ease;
+}
+
+.stickers:hover{
+    transform: rotate(5deg);
+}
+
+p:hover{
+    transform: scale(1.20);
+}
+
+.stickert{
+    position: absolute;
+    top: -20px;
+    scale: 70%;
+    left: -50px;
+    
+     transition: transform 0.3s ease;
+}
+
+.stickert:hover{
+
+    transform: rotate(-5deg);
+
+}
+
+li{
+    margin-right: 20px auto;
+    margin: 10px;
+    font-family: monospace;
+    font-size: 15px;
+
+}
+
+.blender:hover{
+
+    transform: scale(2.5);
+}
